@@ -17,13 +17,17 @@ public class Car {
     public int getCilindrata() {
         return cilindrata;
     }
-    public String getFullCar() {
-        return auto + " " + modello;
-    }
+    
     public String getAuto() {
         return auto;
     }
     public String getModello(){
         return  modello;
+    }
+
+    public void showDetails(){
+        System.out.println("Auto: " + getFullCar());
+        System.out.println("Cilindrata: " + cilindrata);
+        System.out.println("Targa: " + targa);
     }
 }
