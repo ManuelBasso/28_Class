@@ -17,7 +17,7 @@ public class Car {
     public int getCilindrata() {
         return cilindrata;
     }
-    
+
     public String getAuto() {
         return auto;
     }
@@ -26,8 +26,11 @@ public class Car {
     }
 
     public void showDetails(){
-        System.out.println("Auto: " + getFullCar());
+        System.out.println("Auto: " + auto);
+        System.out.println("Modello : " + modello);
         System.out.println("Cilindrata: " + cilindrata);
         System.out.println("Targa: " + targa);
     }
+
+
 }
