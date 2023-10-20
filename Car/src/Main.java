@@ -3,7 +3,8 @@ public class Main {
 
         Car firstAuto = new Car(2200,"AV502WW","Fiat", "Panda");
         firstAuto.showDetails();
-        System.out.println(" ");
+
+
 
 
     }
